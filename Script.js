@@ -1,2 +1,9 @@
 
- $("button2").click( fuction)() { alert('clicked'); });
+$(document).ready(function() {
+    $("#button2" ).click(function( event ) {
+  event.preventDefault();
+ 
+  
+});
+
+});
